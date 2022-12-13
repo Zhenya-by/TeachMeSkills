@@ -1,0 +1,18 @@
+/* 
+селектор {
+    свойство: значение;
+}
+
+.класс {
+    свойство: значение;
+}
+*/
+h1{
+    color: aqua;
+}
+.heading {
+    color: blueviolet;
+}
+#title {
+    color: brown;
+}
