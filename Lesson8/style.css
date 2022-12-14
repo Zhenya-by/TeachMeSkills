@@ -218,7 +218,7 @@ article span{
     }
 .content-right-box{
     position: sticky;
-    top: 115px;
+    top: 0;
 }
 .right-table{
     width: 277px;
