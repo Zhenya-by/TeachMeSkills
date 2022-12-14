@@ -20,9 +20,9 @@
     url(font/TTNorms-Medium.woff2); 
 }
 
-/* тест гита */
-/* body{
-} */
+body{
+
+}
 .wrapper{
     max-width: 1440px;
     margin: 0 auto;
@@ -143,6 +143,8 @@ article span{
     border-right: none;
     border-left: none;
 } 
+.border td{
+}
 .border .img-title-left{
     display: flex;
 }
