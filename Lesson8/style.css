@@ -30,6 +30,36 @@ body{
     position: relative;
     
 }
+.wr{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: #E2195B; */
+    display: flex;
+    gap:20px
+}
+.box1, .box2{
+
+
+    border-radius: 10px;
+
+}
+.box1{
+    /* background-color: violet; */
+    max-width: 871px;
+    width: 100%;
+}
+.box2{
+    /* background-color: tomato; */
+    max-width: 277px;
+    width: 100%;
+}
+
+
+
+
+
+
 .top{
     margin-top: 22px;
 }
@@ -49,8 +79,10 @@ body{
 .content{
     display: flex;
     width: 871px;
+    max-width: 100%;
     /* background-color: rgb(220, 252, 253); */
 }
+
 .wrapper h2{
     padding-top: 12px;
     padding-bottom: 21px;
@@ -206,12 +238,15 @@ article span{
     /* background-color: aqua; */
     }
 .content-right-box{
+    position: sticky;
+    top: 115px;
+
     /* background-color: rgb(121, 121, 121); */
 }
 .right-table{
     width: 277px;
     /* height: 300px; */
-    margin-left: 21px;
+    /* margin-left: 21px; */
     border-spacing: 0;
     border-collapse: separate;
     border-radius: 10px;
