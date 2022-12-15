@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1439px) {
+    .tractor-img{
+        display: none;
+    }
     .wrapper-card-bootom {
         justify-content: center;
         /* max-width: 720px; */
