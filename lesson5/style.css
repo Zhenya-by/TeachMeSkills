@@ -8,13 +8,17 @@
 body{
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
     background-color: #E5E5E5;
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
 
 .content{
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
     position: relative;
 }
 .content-small{
@@ -22,22 +26,42 @@ body{
     background-color: #FFFFFF;
     border: 1px solid transparent;
     padding: 0 120px;
+    position: relative;
     
 }
 .tractor-img{
+    max-width: 1440px;
+    width: 100%;
+    /* background-color: #1D4FCF; */
+    /* width: 862px; */
+    /* height: 552px;
+    margin-top: 100px;
+    background-image: url(img/big_tractor.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -137px;
+    background-position-x: 547px;
+    position: absolute;
+    top: 0px;
+    right: 0px; */
+
+    /* background-repeat: no-repeat;
     background-size: cover;
-    position: absolute; 
     left: 500px;
     z-index: 1;
-    top: 50px;
+    top: 50px; */
     
 }
+
 header{
+    max-width: 1440px;
+    width: 100%;
+    flex-wrap: wrap;
     padding: 0 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
     box-shadow: 0px 0px 20px rgba(148, 148, 148, 0.25);
     background-color: #FFF;
     position: relative;
@@ -67,13 +91,18 @@ header{
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-left: 284px;
+    justify-content: end;
+    /* width: 100%; */
+    max-width: 284px;
 }
 .header-box_viber_whatsapp{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
+    justify-content: end;
+    /* width: 100%; */
+    max-width: 284px;
 }
 .header-box-button_text p{
     font-family: 'Raleway', sans-serif;
@@ -114,8 +143,10 @@ header{
     color: #000000;
 }
 .page{
-        margin-top: 100px;
-
+    margin-top: 100px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
  }
 .page span{
         font-family: 'Raleway', sans-serif;
@@ -167,6 +198,7 @@ li{
 .section0{
     margin-top: 153px;
 }
+
 .page img{
     margin-right: 15px;
     background-size: contain;
@@ -222,6 +254,7 @@ h3, h3{
 }
 .section1{
     max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     margin-top: 140px;
@@ -232,14 +265,15 @@ h3, h3{
 }
 .block2 {
     margin-top: 40px;
-    min-width: 100%;
+    max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 0 30px;
 }
 .card{
-    max-width: 300px;
+    max-width: 276px;
+    width: 100%;
     flex-wrap: wrap;
-    max-width: 278px;
     background-color: #FFFFFF;
     border-radius: 16px;
     box-shadow: 0 0 25px rgb(0 0 0 / 15%);
@@ -247,8 +281,9 @@ h3, h3{
 
 }
 .card img {
-    min-width: 220px;
-    min-height: 184px;
+    max-width: 220px;
+    max-height: 184px;
+    width: 100%;
     background-size: cover;
     padding: 39px 30px 0px 28px;
     /* убирает баг */
@@ -289,6 +324,7 @@ h3, h3{
     margin-bottom: 40px;
 }
 table{
+    display: none;
     box-shadow: 0px 0px 30px rgba(141, 149, 165, 0.23);
     border-radius: 16px 16px 0 0;
     border-spacing: 1px; 
@@ -332,6 +368,8 @@ tr:last-child{
 }
 
 button {
+    width: 100%;
+    max-width: 276.34px;
     background: linear-gradient(45deg, #1D4FCF 0%, #0586E8 100%);
     box-shadow: 0px 6px 20px rgba(56, 149, 235, 0.29);
     border-radius: 8px;
@@ -343,7 +381,10 @@ button {
     font-size: 16px;
     line-height: 19px;
     color: #FFF;
+    text-align: center;
     display: flex;
+    justify-content: center;
+    box-sizing: border-box;
     margin: 0 auto;
     cursor: pointer;
     transition: .8s;
@@ -356,6 +397,7 @@ button:hover{
 }
 .section-card-bottom h3{
     margin-top: 70px;
+    
 }
 
 
@@ -365,12 +407,18 @@ button:hover{
 
 .wrapper-card-bootom {
     display: flex;
-    gap: 30PX;
+    flex-wrap: wrap;
+    /* min-width: 293px; */
+    
+    width: 100%;
+    gap: 30px;
 }
 
 .card-bootom1 {
-    max-width: 585px;
+    max-width: 583px;
+    /* width: 100%; */
     display: flex;
+    /* flex-wrap: wrap; */
     background: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(141, 149, 165, 0.23);
     border-radius: 16px;
@@ -383,7 +431,10 @@ button:hover{
     box-shadow: 0px 0px 40px rgba(141, 149, 165, 0.466);
 }
 
-.card-bootom-img {
+.card-bootom-img img{
+    /* max-width: 493px; */
+    background-size: cover;
+    width: 100%;
 }
 
 .title-content{
@@ -427,6 +478,7 @@ a:visited{
 }
 
 .footer-wrapper{
+    flex-wrap: wrap;
     padding-top: 40px;
     margin-bottom: 12px;
     display: flex;

@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1439px) {
+    .wrapper-card-bootom {
+        justify-content: center;
+        /* max-width: 720px; */
+        margin-top: 40px;
+    }
+    .card-bootom1{
+        max-width: 720px;
+    }
+    .section-card-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-card-bottom h3{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .section-card-bottom hr{
+        margin: 0 auto;
+    }
+    .block2{
+        gap: 18px;
+        justify-content: center;
+    }
+ }
+@media only screen and (max-width: 1432px) {
+    .wrapper-big {
+        gap:11px
+    }
+ }
+@media only screen and (max-width: 1377px) {
+    .header {
+       
+    }
+    .header-box{
+        gap: 5px;
+        flex-direction: column;
+    }
+    .content-small{
+
+    }
+    .block2{
+        gap: 18px;
+        justify-content: center;
+    }
+    .card-bootom1{
+        max-width: 720px;
+    }
+    .tractor-img{
+        
+    }
+ }
+
+@media only screen and (max-width: 1375px) {
+    .wrapper-big {
+        gap: 10px
+    }
+}
+@media only screen and (max-width: 1371px) {
+    .wrapper-big-big{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .wrapper-big{
+        max-width: 600px;
+        /* margin: 0 auto; */
+        justify-content: center;
+        gap:18px
+        
+    }
+    .section0{
+        display: flex;
+        flex-direction: column;
+    }
+    .section0 .title {
+        display: flex;
+        justify-content: center;
+    }
+    .section0 hr{
+        margin: 0 auto;
+    }
+    .card{
+        max-width: 276px;
+    }
+}
+
+@media only screen and (max-width: 924px) {
+    .header-box-group{
+        /* width: 25%; */
+    }
+    .header-box{
+        /* width: 25%; */
+        justify-content: center;
+    }
+    .content-small, footer, header{
+        padding: 0 60px;
+    }
+    header{
+        gap: 0 190px;
+    }
+    .header-box_viber_whatsapp {
+        order: 1;
+    }
+    .header-box-vk_ig{
+        order: 1;
+      
+        
+        
+    }
+    .header-box-vk_ig img{
+    }
+    .header-box-button_text{
+        /* order: -1; */
+    }
+}
+@media only screen and (max-width: 823px) {
+    .wrapper-big {
+        gap:5px
+    }
+}
+@media only screen and (max-width: 813px) {
+    /* .content{
+        padding: 0 20px;
+    } */
+    .header{
+        padding: 0 20px;
+    }
+    .card{
+        max-width: 279px;
+    }
+    .content-small{
+        padding: 0 20px;
+    }
+    .wrapper-big {
+        display: grid;
+        gap: 18px;
+    }
+    footer{
+        /* padding: 0 20px; */
+    }
+    .page .hr-line{
+        display: flex;
+        justify-content: center;
+    }
+    .page p{
+        text-align: center;
+    }
+    .page p:first-child{
+        margin-bottom: 16px;
+    }
+    .page p:last-child{
+        margin-top: 40px;
+    }
+    .list-text{
+        flex-direction: column;
+    }
+ }
+@media only screen and (max-width: 702px) {
+    header{
+        flex-direction: row;
+        width: 100%;
+        gap: 0 64px;
+    }
+}
+@media only screen and (max-width: 686px) {
+    .footer-logo{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media only screen and (max-width: 651px) {
+    .card-bootom-img{
+        /* justify-content: center; */
+    }
+    .card-bootom1{
+        /* max-width: 720px; */
+        width: 100%;
+        flex-direction: column;
+        border-radius: 32px;
+        gap: 0px;
+    }
+    .title-content{
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+        padding: 20px;
+    }
+ }
+@media only screen and (max-width: 576px) {
+    header{
+        gap: 10px;
+    }
+ }
+@media only screen and (max-width: 522px) {
+    header{
+        padding: 0 20px;
+        padding-top: 20px;
+        /* gap: 5px 45px; */
+        justify-content: space-between;
+    }
+    .header-box-vk_ig{
+        /* padding-left: 65px; */
+      
+    }
+    .header-box_viber_whatsapp{
+        /* padding-right: 65px; */
+
+    }
+    .header-box{
+        /* width: 50%; */
+        
+        /* background-color: aquamarine; */
+    }
+    .header-box-group{
+        width: 40%;
+        /* gap: 66px; */
+        /* background-color: aqua; */
+        flex-direction: row-reverse;
+    }
+    .header-box-group img{
+        display: none;
+    }
+    .footer-right img{
+        display: none;
+    }
+    footer{
+        padding: 0 20px;
+
+    }
+    .fotter-social{
+        justify-content: center;
+        gap: 60px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    header{
+        
+        padding: 0 20px;
+        padding-top: 20px;
+    }
+    .header-box{
+
+    }
+    .header-box_viber_whatsapp{
+        /* padding-right: 40px; */
+    }
+    .header-box-vk_ig{
+        /* padding-left: 65px; */
+    }
+    .header-box-group{
+        /* flex-direction: column-reverse; */
+        /* width: 100%; */
+        gap: 0px;
+    }
+    .header-box-group img{
+        display: none;
+    }
+    .header-box-button_text p {
+        font-size: 22px;
+    }
+    .header-box-button_text p:nth-last-child(1){
+        text-align: center;
+    }
+
+
+    footer{
+        padding: 0 20px;
+
+    }
+    .footer-wrapper{
+        align-items: center;
+    }
+    .footer-right{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .fotter-social{
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .footer-right img{
+        display: none;
+        
+    }
+    .header-box-button_text p{
+        font-size: 17px;
+     }
+     
+    .title, .section1 h3, .section-table h3, .section-card-bottom h3{
+        font-size: 23px;
+    }
+
+ }
+ @media only screen and (max-width: 360px) {
+    .header-box-button_text p{
+        font-size: 17px;
+     }
+     .page p:first-child{
+        font-size: 28px;
+     }
+     .page span{
+        font-size: 28px;
+     }
+ }
