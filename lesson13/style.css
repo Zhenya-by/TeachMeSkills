@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +10,9 @@
     margin: 0 auto;
     max-width: 1440px;
     /* background-color: blueviolet; */
+}
+#container-id{
+    margin-top: 89px;
 }
 .container h1{
     font-family: 'Raleway' sans-serif;
@@ -45,18 +48,35 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    /* height: 100px; */
 }
 .card-text{
-
     max-width: 370px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .card-body p{
     margin-top: 8px;
 }
-.col12{
+.form-control{
     border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+#exampleInputEmail1{
+    max-width: 571px;
+}
+.footer-hr{
+    width: 571px;
+}
+.form-control{
+    width: 579px;
+    resize: none;
+}
+.btn{
+    background-color: #EC7979;
+    padding: 10px 30%;
+
+
 }
