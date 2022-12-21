@@ -9,7 +9,6 @@
 .container{
     margin: 0 auto;
     max-width: 1170px;
-    /* background-color: blueviolet; */
 }
 #container-id{
     display: flex;
@@ -24,7 +23,6 @@
     line-height: 42px;
 }
 hr{
-    /* background-color: aqua; */
     width: 170px;
 }
 .container p{
@@ -53,7 +51,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100px; */
+
 }
 .card-text{
     max-width: 370px;
