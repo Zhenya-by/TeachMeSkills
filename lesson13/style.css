@@ -7,8 +7,11 @@
 }
 
 .container{
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     max-width: 1170px;
+    width: 100%;
 }
 #container-id{
     display: flex;
@@ -35,6 +38,7 @@ hr{
 .card-group{
     padding: auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin: 110px 0 110px 0;
 }
@@ -46,6 +50,7 @@ hr{
 .card-img {
     max-width: 170px;
     max-height: 170px;
+    width: 100%;
 }
 .card-title {
     display: flex;
@@ -55,6 +60,7 @@ hr{
 }
 .card-text{
     max-width: 370px;
+    width: 100%;
 }
 .card-body p{
     margin-top: 8px;
@@ -69,17 +75,26 @@ hr{
 }
 #exampleInputEmail1{
     max-width: 555px;
+    width: 100%;
 }
 .footer-hr{
-    width: 555px;
+    width: 545px;
+    width: 100%;
 }
 .form-control{
-    width: 555px;
+    width: 549px;
+    width: 100%;
     resize: none;
 }
 .btn{
     background-color: #EC7979;
     padding: 10px 30%;
+    margin-bottom: 50px;
 
 
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
