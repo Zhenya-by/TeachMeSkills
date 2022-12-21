@@ -8,10 +8,12 @@
 
 .container{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1170px;
     /* background-color: blueviolet; */
 }
 #container-id{
+    display: flex;
+    gap: 30px;
     margin-top: 89px;
 }
 .container h1{
@@ -33,6 +35,9 @@ hr{
     margin-top: 40px;
 }
 .card-group{
+    padding: auto;
+    display: flex;
+    gap: 30px;
     margin: 110px 0 110px 0;
 }
 .card{
@@ -65,13 +70,13 @@ hr{
     line-height: 19px;
 }
 #exampleInputEmail1{
-    max-width: 571px;
+    max-width: 555px;
 }
 .footer-hr{
-    width: 571px;
+    width: 555px;
 }
 .form-control{
-    width: 579px;
+    width: 555px;
     resize: none;
 }
 .btn{
