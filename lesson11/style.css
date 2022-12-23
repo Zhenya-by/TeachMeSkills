@@ -1,0 +1,255 @@
+@font-face{
+    font-family: 'TT Norms';
+    src: local('TT Norms Regular'),
+    url(font/TTNorms-Regular.woff2); 
+}
+@font-face{
+    font-family: 'TT Norms';
+    src: local('TT Norms Bold'),
+    url(fonts/TTNorms-Bold.woff2); 
+}
+@font-face{
+    font-family: 'TT Norms';
+    src: local('TTNorms-Medium'),
+    url(font/TTNorms-Medium.woff2); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    width: 100%;
+    background-color: #F2E4E1;
+    border-radius: 10px;
+    position: relative;
+}
+.cardbox-wrapper{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.cardbox-wrapper h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.card-box img{
+    max-width: 276px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.cart-wrapper{
+    /* background-color: #222A46; */
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+}
+.heart{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.cardbox-wrapper{
+
+    display: flex;
+    gap: 20px;
+
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 278px;
+    border: 1px solid #E2E4EB;
+    border-radius: 5px;
+    border-top: none;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+.card-title{
+    max-width: 278px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px; 
+}
+.card-title h3{
+    padding-top: 20.01px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222A46;
+}
+.card-title p{
+    /* display: flex; */
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #505567;
+}
+.footer-card{
+    display: flex;
+}
+.footer-card{
+    margin-left: 20px;
+    max-width: 238px;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+.footer-title h3{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222A46;
+}
+.footer-title p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: line-through;
+    color: #B0B2B9;
+}
+.footer-title {
+    align-items:flex-end;
+    
+}
+.footer-btn-right{
+    /* margin: 13px 15px 13px 18px ; */
+    padding: 13px 15px 13px 18px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items:flex-end;
+    gap: 13px;
+    background-color: #E2195B;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-btn-right:hover{
+    box-shadow: 0 0 10px rgba(226, 25, 91, 0.644);
+}
+.card-box:nth-child(3) .hit{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #0093A2;
+    position: absolute;
+    top: 15px;
+    left: 15px; 
+}
+.footer-btn-right img{
+    display: flex;
+
+    align-items: center;
+}
+.baner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.baner h1{
+
+    max-width: 307px;
+    width: 100%;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+    color: #222A46;
+}
+.baner p{
+    font-family: 'TT Norms', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222A46;
+    /* margin: 90px 0 10px 90px; */
+}
+.input-style{
+    max-width: 153px;
+    width: 100%;
+    
+    /* margin: 0px 0px 0px 90px; */
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding: 14px 25px 14px 25px;
+    /* position: absolute; */
+    font-family: 'TT Norms', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E2195B;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+}
+.wrap{
+    padding:90px 0 86px 90px;
+    display: flex;
+    max-width: 893px;
+    width: 100%;
+    /* background-color: #74666b; */
+}
+.btn-input{
+    padding: 13px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: #0093A2;
+    /* position: relative; */
+    /* top: 0;
+    left: 0;
+    float: right; */
+
+}
+.promo-text{ 
+    display: flex;
+
+}
+.rightimg{
+    display: flex;
+    max-width: 358px;
+    width: 100%;
+    background-color: #EB7F9F;
+    border-radius: 0 10px 10px 30px;
+    
+}
+.img-flower{
+    width: 387.37px;
+    height: 454.7px;
+    max-height: 100%;
+    max-width: 100%;
+    top: 0px;
+    /* background-color: #505567; */
+    right: 277px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -58px;
+    background-image: url(img/цветы.png);
+    position: absolute;
+}
+
