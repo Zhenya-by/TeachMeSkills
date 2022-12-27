@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="handling.css">
     <title>handling</title>
 </head>
+
 <body>
     <header>
         <div class="wrapper">
@@ -42,14 +44,106 @@
         </div>
     </header>
     <section class="breadcrumb-wrapper">
-            <div class="breadcrumb-wrapper-inner">
-                <ul class="breadcrumb">
-                    <li><a href="index.html"><img class="img-breadcrumb" src="img/breadcrumb-home.svg" alt="home"></a></li>
-                    <li><a href="About-project.html">О проекте</a></li>
-                </ul>
-            </div>
+        <div class="breadcrumb-wrapper-inner">
+            <ul class="breadcrumb">
+                <li><a href="index.html"><img class="img-breadcrumb" src="img/breadcrumb-home.svg" alt="home"></a></li>
+                <li><a href="About-project.html">О проекте</a></li>
+            </ul>
+        </div>
     </section>
-    
+    <section class="filter">
+        <div class="filter-wrapper">
+            <div class="filter-wrapper-inner">
+                <div class="filter-title-box">
+                    <h1>Обращение</h1>
+                    <p>Не большое описание буквально в несколько предложений, занимающие не более трех строк.</p>
+                </div>
+                <div class="title-btn">
+                    <button class="btn-filter">Сообщить о проблеме</button>
+                </div>
+            </div>
+
+            <div class="btn-conteiner">
+                <div class="btn-left">
+                    <button class="btn-bootom-filter-active">Все <span>11 453</span></button>
+                    <button class="btn-bootom-filter">В ожидании <span>1 015</span></button>
+                    <button class="btn-bootom-filter">В работе <span>1 580</span></button>
+                    <button class="btn-bootom-filter">Исполнено <span>3 305</span></button>
+                </div>
+                <div class="btn-right">
+                    <button class="btn-bootom-filter-right">Фильтр
+                        <img src="img/menu-btn.svg" alt="menu-btn">
+                    </button>
+                </div>
+            </div>
+            <div class="select-form">
+                <form action="/" method="post">
+                    <!-- <label for="country">Выберите страну:</label> -->
+                    <input type="number" placeholder="Поиск по номеру">
+                    <select name="category" id="category">
+                        <option value="section">Выберете категорию</option>
+                        <option value="latvia">Дворовая территория</option>
+                    </select>
+                    <select name="number" id="number">
+                        <option value="russia">10</option>
+                    </select>
+                    <select name="month" id="month">
+                        <option value="russia">За 6 месяцев</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </section>
+    <main class="main">
+        <div class="content-main">
+            <div class="content-left">
+                <div class="content-wrap">
+                    <div class="content-link">
+                        <a class="content-link1" href="#">№2340</a>
+                        <a class="content-link-active" href="#">В ожидании</a>
+                    </div>
+                    <h2>С контейнерной площадки не вывозится крупногабаритный мусор</h2>
+                    <p>Просим разобраться с данным тарифом на горячую воду. данный тариф очень высокий. 
+                        215.96 — это ГВС (Подогрев) (5 разр.) + в водоканал платеж за воду 29.32. Итого за 1 куб гор. воды оплата 245,28 руб.
+                        У нас своя котельная. Ранее куб горячей воды стоил 179 руб. Почему сейчас вода подорожала почти на 40%?
+                        Просим разобраться с данным тарифом и повлиять на его уменьшение. Кому бы..</p>
+                    <div class="content-img-box">
+                        <img src="img/Rectangle-1.png" alt="Rectangle-1">
+                        <img src="img/Rectangle-2.png" alt="Rectangle-2">
+                        <img src="img/Rectangle-3.png" alt="Rectangle-3">
+                        <img src="img/Rectangle-4.png" alt="Rectangle-4">
+                        <img src="img/Rectangle-6.png" alt="Rectangle-6">
+                        <div class="gradient">
+                            <img class="active" src="img/Rectangle-5.png" alt="Rectangle-5"></a>
+                        </div>
+                    </div>
+                    <div class="title-btn">
+                        <button class="btn-content-left">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="content-wrap">
+                    <div class="content-right-title">
+                        <h1>5 626</h1>
+                        <button class="circle-btn">
+                            <img src="img/circle-btn.svg" alt="circle-btn">
+                        </button>
+                    </div>
+                    <p class="title-text">Подержали данное<br>обращение</p>
+                    <div class="title-btn">
+                        <button class="btn-content-right-width">Присоединиться</button>
+                        <button class="btn-content-right small-btn">
+                            <img src="img/help-circle 2.svg" alt="help-circle">
+                        </button>
+                        <button class="btn-content-right small-btn">
+                            <img src="img/share-2 2.svg" alt="share">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="wrapper-footer">
             <div class="wrapper-footer-inner">
@@ -57,36 +151,60 @@
                     <img class="footer-logo-img" src="img/logo-footer.svg" alt="logo-footer">
                     <p class="info-text">Информационная экосистема Рязанской области — Наш Дом Рязань</p>
                 </div>
-    
+
                 <div class="col">
                     <div class="col-footer">
                         <p>Разделы сайта</p>
                         <div class="link-box">
                             <ul class="footer-link">
-                                <a href="#"><li>Управляющие организации дома</li></a>
-                                <a href="#"><li>Рейтинги и Исполнители</li></a>
-                                <a href="handling.html"><li>Жалобы и обращения</li></a>
-                                <a href="#"><li>Общественные обсуждения</li></a>
-                                <a href="#"><li>Опросы</li></a>
+                                <a href="#">
+                                    <li>Управляющие организации дома</li>
+                                </a>
+                                <a href="#">
+                                    <li>Рейтинги и Исполнители</li>
+                                </a>
+                                <a href="handling.html">
+                                    <li>Жалобы и обращения</li>
+                                </a>
+                                <a href="#">
+                                    <li>Общественные обсуждения</li>
+                                </a>
+                                <a href="#">
+                                    <li>Опросы</li>
+                                </a>
                             </ul>
-                                <div class="link-box">
-                                    <ul class="footer-link">
-                                        <a href="#"><li>Реестр организаций-партнеров</li></a>
-                                        <a href="#"><li>Информация об УПЧ</li></a>
-                                        <a href="#"><li>Запись к УПЧ</li></a>
-                                        <a href="#"><li>Написать уполномоченному</li></a>
-                                    </ul>
-                                </div>
+                            <div class="link-box">
+                                <ul class="footer-link">
+                                    <a href="#">
+                                        <li>Реестр организаций-партнеров</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>Информация об УПЧ</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>Запись к УПЧ</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>Написать уполномоченному</li>
+                                    </a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                
+
                     <div class="col-footer">
                         <p>Помощь</p>
                         <div class="link-box">
                             <ul class="footer-link">
-                                <a href="#"><li>Написать в техподдержку</li></a>
-                                <a href="#"><li>Вопросы и ответы</li></a>
-                                <a href="#"><li>Пользовательское соглашение</li></a>
+                                <a href="#">
+                                    <li>Написать в техподдержку</li>
+                                </a>
+                                <a href="#">
+                                    <li>Вопросы и ответы</li>
+                                </a>
+                                <a href="#">
+                                    <li>Пользовательское соглашение</li>
+                                </a>
                             </ul>
                         </div>
                     </div>
@@ -107,9 +225,10 @@
                     <div class="googleplay">
                         <img src="img/googleplay.svg" alt="googleplay">
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
