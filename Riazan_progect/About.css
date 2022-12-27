@@ -149,6 +149,18 @@ header{
 }
                     /* /header */
                     /* main */
+.breadcrumb-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.5px solid rgba(196, 196, 196, 0.6);
+}
+.breadcrumb-wrapper-inner{
+    max-width: 1050px;
+    width: 100%;
+    padding: 20px 0;
+}
 main{
     width: 100%;
     display: flex;
@@ -157,9 +169,6 @@ main{
 .wrapper-main{
     max-width: 1050px;
     width: 100%;
-}
-.breadcrumb-wrap{
-    padding: 20px 0;
 }
 .breadcrumb{
     display: flex;
@@ -295,7 +304,7 @@ footer{
     justify-content: center;
     width: 100%;
     background-color: #FFFFFF;
-    border: 1px solid rgba(27, 20, 0, 0.12);
+    border-top: 1px solid rgba(27, 20, 0, 0.12);
 }
 .col{
     display: flex;
@@ -371,7 +380,7 @@ footer{
 .gorizont-line{
     display: flex;
     flex-direction: column;
-    border: 0.5px solid rgba(196, 196, 196, 0.6);
+    border-bottom: 0.5px solid rgba(196, 196, 196, 0.6);
 }
 .footer-row{
     padding: 32px 0;
