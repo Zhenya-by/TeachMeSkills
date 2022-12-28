@@ -682,6 +682,7 @@ main{
 .pages-content{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     max-width: 364px;
     justify-content: space-between;
     gap: 12px;
