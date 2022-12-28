@@ -1,19 +1,22 @@
-@font-face{
+@font-face {
+    font-family: 'ALS Hauss';
+    src: local('ALS Hauss Book'),
+    url(fonts/ALSHauss-Regular.woff2);
+    font-weight: 400;    
+}
+@font-face {
     font-family: 'ALS Hauss';
     src: local('ALS Hauss Regular'),
-    url(fonts/ALSHauss-Regular.woff2); 
-}
-@font-face{
-    font-family: 'ALS Hauss Bold';
-    src: local('ALS Hauss Bold'),
-    url(fonts/ALSHauss-Bold.woff2); 
-}
-@font-face{
-    font-family: 'ALS Hauss Medium';
-    src: local('ALS Hauss Medium'),
-    url(fonts/ALSHauss-Medium.woff2); 
+        url(fonts/ALSHauss-Regular.woff2);
+    
 }
 
+@font-face {
+    font-family: 'ALS Hauss';
+    src: local('ALS Hauss Medium'),
+        url(fonts/ALSHauss-Medium.woff2);
+        font-weight: 500;
+}
 *{
     margin: 0;
     padding: 0;
@@ -184,7 +187,7 @@ ul.breadcrumb li+li:before {
     color: black;
     content: "/";
     text-transform: uppercase;
-    font-family: 'ALS Hauss bold', sans-serif;
+    font-family: 'ALS Hauss', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -193,7 +196,7 @@ ul.breadcrumb li+li:before {
     color: rgba(27, 20, 0, 0.4);
   }   
 .breadcrumb li{
-    font-family: 'ALS Hauss bold', sans-serif;
+    font-family: 'ALS Hauss', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -203,6 +206,7 @@ ul.breadcrumb li+li:before {
 } 
 .breadcrumb a:link {
     color: rgba(27, 20, 0, 0.4);
+    
 }
 .breadcrumb a:visited{
     color: rgba(27, 20, 0, 0.4);
@@ -211,6 +215,9 @@ ul.breadcrumb li+li:before {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #000000;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 } 
 .title-content h1{
     padding-top: 40px;
@@ -225,7 +232,11 @@ ul.breadcrumb li+li:before {
 .title-content p{
     padding-top: 20px;
     max-width: 690px;
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
 }              
                     /* /main */
 /* slide */
@@ -285,6 +296,9 @@ ul.breadcrumb li+li:before {
 }
 .counter-col h2{
     font-size: 40px;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.02em;

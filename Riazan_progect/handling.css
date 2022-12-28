@@ -1,20 +1,21 @@
 @font-face {
     font-family: 'ALS Hauss';
+    src: local('ALS Hauss Book'),
+    url(fonts/ALSHauss-Regular.woff2);
+    font-weight: 400;    
+}
+@font-face {
+    font-family: 'ALS Hauss';
     src: local('ALS Hauss Regular'),
         url(fonts/ALSHauss-Regular.woff2);
-    font-weight: 400;
+    
 }
 
 @font-face {
-    font-family: 'ALS Hauss Bold';
-    src: local('ALS Hauss Bold'),
-        url(fonts/ALSHauss-Bold.woff2);
-}
-
-@font-face {
-    font-family: 'ALS Hauss Medium';
+    font-family: 'ALS Hauss';
     src: local('ALS Hauss Medium'),
         url(fonts/ALSHauss-Medium.woff2);
+        font-weight: 500;
 }
 
 * {
@@ -169,7 +170,6 @@ header {
     letter-spacing: 0.02em;
     color: #1B1400;
 }
-
 /* /header */
 /* breadcrumb */
 .breadcrumb-wrapper {
@@ -202,7 +202,7 @@ ul.breadcrumb li+li:before {
     color: black;
     content: "/";
     text-transform: uppercase;
-    font-family: 'ALS Hauss bold', sans-serif;
+    font-family: 'ALS Hauss', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -212,7 +212,7 @@ ul.breadcrumb li+li:before {
 }
 
 .breadcrumb li {
-    font-family: 'ALS Hauss bold', sans-serif;
+    font-family: 'ALS Hauss', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -293,7 +293,7 @@ ul.breadcrumb li+li:before {
     flex-wrap: wrap;
 }
 
-.btn-filter, .btn-content-left, .btn-content-right, .btn-content-right-width{
+.btn-filter, .btn-content-left{
     border: none;
     align-items: center;
     display: flex;
@@ -311,7 +311,25 @@ ul.breadcrumb li+li:before {
     letter-spacing: 0.02em;
     color: #1B1400;
 }
-
+.btn-content-right-width, .btn-content-right{
+    border: none;
+    align-items: center;
+    display: flex;
+    /* height: 40px; */
+    background-color: #FFCC33;
+    border-radius: 8px;
+    padding: 12px 37px;
+    cursor: pointer;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #1B1400;
+}
 .btn-bootom-filter,
 .btn-bootom-filter-active,
 .btn-bootom-filter-right {
@@ -418,6 +436,10 @@ main{
     justify-content: center;
     background-color: #EFEFEF;
 }
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+}
 .content-main {
     margin-top: 32px;
     max-width: 1050px;
@@ -445,17 +467,69 @@ main{
     flex-direction: column;
     padding: 24px 24px 24px 24px;
 }
+.content-wrap h2{
+    padding-top: 16px;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.content-wrap p{
+    padding-top: 12px;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #1B1400;
+    opacity: 0.8;
+}
+.content-link{
+    /* height: 28px; */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
 .content-link1{
     padding: 4px 8px;
     background-color: #F6F6F6;
     border-radius: 8px;
 }
-.content-link-active {
-    background-color: #FFCC33;
+.content-link-active, .content-link-active2, .content-link-active3 {
+    background-color: #FFCC3329;
     border-radius: 8px;
     padding: 4px 8px;
 }
+.content-link-active2{
+    background-color: rgba(51, 182, 255, 0.16);
+}
+.content-link-active3{
+    background-color: rgba(51, 255, 59, 0.16);
+}
+.content-link1:link, .content-link-active:link, .content-link-active2:link, .content-link-active3:link{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #1B1400;
+}
+.content-link1:visited, .content-link-active:visited, .content-link-active2:visited, .content-link-active3:visited{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #1B1400;
+}
 .content-img-box{
+    padding-top: 24px;
     margin-right: -24px;
     display: flex;
     flex-wrap: wrap;
@@ -485,6 +559,15 @@ main{
     display: flex;
     justify-content: space-between;
 }
+.content-right-title h1{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
 .circle-btn{
     display: flex;
     justify-content: center;
@@ -496,10 +579,10 @@ main{
     border-radius: 50%;
     cursor: pointer;
 }
-.title-text{
+.content-wrap4 .title-text{
     max-width: 282px;
     width: 100%;
-    font-family: 'ALS Hauss' sans-serif;
+    font-family: 'ALS Hauss', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -507,29 +590,152 @@ main{
     letter-spacing: 0.02em;
     color: #000000;
     opacity: 0.6;
+    padding-bottom: 20px;
 }
-.circle-btn{
-
-}
-.title-btn{
+.title-btn-content{
+    /* padding-top: 24px; */
     display: flex;
     align-items: center;
     gap: 8px;
 }
+.title-btn-content-r{
+
+    display: flex;
+    gap: 8px;
+}
 .small-btn{
     width: 40px;
-    height: 40px;
+    /* height: 40px; */
     padding: 10px;
     background-color: #F6F6F6;
     border-radius: 8px; 
     line-height: 0;
 }
 .btn-content-right-width{
-    padding: 0 37px;
+    
 }
+.horizont-line{
+    border-top: 0.5px solid rgba(196, 196, 196, 0.6);
 
+
+}
+.content-wrap2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px 24px 20px 24px;
+}
+.content-wrap3{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px 24px 24px 24px;
+}
+.content-wrap4{
+    display: flex;
+    flex-direction: column;
+
+    padding: 24px 24px 20px 24px;
+}
+.category-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.category-text h4{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(27, 20, 0, 0.4);
+}
+.grey-text{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
 /* /main */
+/* pages */
+.pages{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 48px 0 64px 0;
 
+}
+.pages-wrapper{
+    max-width: 1050px;
+    width: 100%;
+    justify-content: center;
+}
+.pages-wrapper-inner{
+    display: flex;
+    justify-content: center;
+}
+.pages-content{
+    display: flex;
+    align-items: center;
+    max-width: 364px;
+    justify-content: space-between;
+    gap: 12px;
+}
+.pages-box{
+    display: flex;
+    gap: 4px;
+}
+.pages-btn, .pages-btn-grey, .pages-btn-active{
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.pages-btn-active{
+    background-color: #FFCC33;
+}
+.pages-btn img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.pages-box .pages-btn-grey, .pages-btn-active{
+    padding: 14px 8px;
+    font-family: 'ALS Hauss';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1B1400;
+    
+}
+.pages-box a{
+
+    width: 24px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'ALS Hauss';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1B1400;
+    
+}
+/* /pages */
 /* footer */
 footer {
     display: flex;

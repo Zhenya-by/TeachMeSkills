@@ -1,7 +1,22 @@
-@font-face{
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: local('ALS Hauss Book'),
+    url(fonts/ALSHauss-Regular.woff2);
+    font-weight: 400;    
+}
+@font-face {
     font-family: 'ALS Hauss';
     src: local('ALS Hauss Regular'),
-    url(fonts/ALSHauss-Regular.woff2); 
+        url(fonts/ALSHauss-Regular.woff2);
+    
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: local('ALS Hauss Medium'),
+        url(fonts/ALSHauss-Medium.woff2);
+        font-weight: 500;
 }
 
 *{
@@ -176,6 +191,9 @@ main{
     height: 248px;
 }
 .box-row-title{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     display: flex;
     gap: 12px;
     font-size: 32px;
@@ -199,6 +217,14 @@ main{
     background: #FFFFFF;
     border-radius: 8px;
     padding: 12px 24px;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
 }
                         /* flex */
 .flex {
@@ -227,6 +253,9 @@ main{
 .flex-item-text1 h2{
     max-width: 379px;
     width: 100%;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
@@ -235,6 +264,9 @@ main{
 .flex-item-text3 h2{
     max-width: 294px;
     width: 100%;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
@@ -347,17 +379,24 @@ main{
     width: 100%;
 }
 .counter-col h2, .counter-col p{
+
     display: flex;
     justify-content: center;
 }
 .counter-col h2{
     font-size: 40px;
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
 }
 .counter-col p{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     text-align: center;
@@ -406,10 +445,12 @@ footer{
     width: 100%;
 }
 .info-text{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     margin-top: 24px;
     max-width: 150px;
     width: 100%;
-    font-weight: 400;
     font-size: 14px;
     line-height: 140%;
     letter-spacing: 0.02em;
