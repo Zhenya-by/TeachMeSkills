@@ -136,6 +136,7 @@ header{
     display: block;
 } 
 .btn-log-in{
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -213,6 +214,7 @@ main{
     padding-bottom: 24px;
 }
 .box-row-btn{
+    cursor: pointer;
     border: none;
     background: #FFFFFF;
     border-radius: 8px;
@@ -291,10 +293,35 @@ main{
     opacity: 0.6;
 }
 .box-row-btn2 {
+    cursor: pointer;
     border: none;
     background: #FFCC33;
     border-radius: 8px;
     padding: 12px 24px
+    
+}
+.box-row-btn3{
+    background: #FFCC33;
+    border-radius: 8px;
+    padding: 12px 24px
+
+    
+}
+.box-row-btn3 span{
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #1B1400;
+}
+a.box-row-btn3:link{
+    color: #1B1400;
+}
+a.box-row-btn3:visited{
+    color: #1B1400;
 }
 .box-row-btn2 p{
     font-family: 'ALS Hauss', sans-serif;

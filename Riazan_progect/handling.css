@@ -879,3 +879,174 @@ footer{
     font-size: 0px;
 }
                     /* /footer */
+/* popup */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 35%;
+    margin: 0 auto;
+    max-width: 510px;
+    padding: 32px;
+    background: #fff;
+    border-radius: 12px;
+    /* width: 30%; */
+    position: relative;
+    /* transition: all 5s ease-in-out; */
+}
+
+.popup .close i{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    transition: all 200ms;
+}
+i{
+    position: absolute;
+    font-size: 22px;
+    top: 8px;
+    right: 8px;
+    transition: all 200ms;
+}
+
+.popup h2 {
+    margin-top: 0px;
+    font-family: 'ALS Hauss';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.popup-img {
+    display: flex;
+    gap: 12px;
+    padding: 24px 0 40px 0;
+}
+.input-box{
+    position: relative;
+}
+input{
+    /* max-width: 444px; */
+    height: 46px;
+    width: 100%;
+    background-color: #F6F6F6;
+    border: 0.5px solid rgba(27, 20, 0, 0.08);
+    border-radius: 8px;
+    padding: 14px 16px;
+}
+.popup-btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 12px 28px;
+
+    background: #FFCC33;
+    border: 0.5px solid rgba(27, 20, 0, 0.08);
+    border-radius: 8px;
+
+    font-family: 'ALS Hauss', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B1400;
+}
+.popup .close{
+    color: #C4C4C4;
+}
+.popup .close:hover {
+    color: #FFCC33;
+}
+a.circle1{
+    background: url(img/ic-1-telegram.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle1:hover{
+    background: url(img/ic-telegram.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle2{
+    background: url(img/ic-2-twitter.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle2:hover{
+    background: url(img/ic-twitter.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle3{
+    background: url(img/ic-3-fb.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle3:hover{
+    background: url(img/ic-fb.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle4{
+    background: url(img/ic-4-whatsapp.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle4:hover{
+    background: url(img/ic-whatsapp.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle5{
+    background: url(img/ic-5-messenger.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle5:hover{
+    background: url(img/ic-messenger.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle6{
+    background: url(img/ic-6-email.svg);
+    width: 56px;
+    height: 56px;
+}
+a.circle6:hover{
+    background: url(img/ic-email.svg);
+    width: 56px;
+    height: 56px;
+}
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+
+/* /popup */

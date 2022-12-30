@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="handling.css">
+    <script src="https://kit.fontawesome.com/554c4a0436.js" crossorigin="anonymous"></script>
     <title>handling</title>
 </head>
 
@@ -29,7 +30,7 @@
                         </button>
                         <div class="dropdown-content">
                             <div class="dropdowm-content-inner">
-                                <a href="#">Написать в техподдержку</a>
+                                <a href="support.html">Написать в техподдержку</a>
                                 <a href="#">Вопросы и ответы</a>
                                 <a href="#">Пользовательское соглашение</a>
                             </div>
@@ -59,7 +60,7 @@
                     <p>Не большое описание буквально в несколько предложений, занимающие не более трех строк.</p>
                 </div>
                 <div class="title-btn">
-                    <button class="btn-filter">Сообщить о проблеме</button>
+                    <a href="support.html" class="btn-filter">Сообщить о проблеме</a>
                 </div>
             </div>
 
@@ -139,9 +140,12 @@
                             <button class="btn-content-right small-btn">
                                 <img src="img/help-circle 2.svg" alt="help-circle">
                             </button>
-                            <button class="btn-content-right small-btn">
+                            <!-- <button class="btn-content-right small-btn">
                                 <img src="img/share-2 2.svg" alt="share">
-                            </button>
+                            </button> -->
+                            <a href="#popup1" class="btn-content-right small-btn">
+                                <img src="img/share-2 2.svg" alt="share">
+                            </a>
                         </div>
                     </div>
                     <div class="horizont-line">
@@ -428,4 +432,47 @@
             </div>
         </div>
     </footer>
+    <section>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a class="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+                <h2>Поделиться</h2>
+                <div class="popup-img">
+                    <a href="#" class="circle1"></a>
+                    <a href="#" class="circle2"></a>
+                    <a href="#" class="circle3"></a>
+                    <a href="#" class="circle4"></a>
+                    <a href="#" class="circle5"></a>
+                    <a href="#" class="circle6"></a>
+                    <!-- <div class="circle-img">
+                        <img src="img/telegram.svg" alt="1telegram">
+                    </div> -->
+                    <!-- <div class="circle-twiter">
+                        <img src="img/twiter.svg" alt="twiter">
+                    </div>
+                    <div class="circle-fs">
+                        <img src="img/fs.svg" alt="fs">
+                    </div>
+                    <div class="circle-whatsapp">
+                        <img src="img/whatsapp.svg" alt="whatsapp">
+                    </div>
+                    <div class="circle-messenger">
+                        <img src="img/messenger.svg" alt="messenger">
+                    </div>
+                    <div class="circle-email">
+                        <img src="img/email 1.svg" alt="email">
+                    </div> -->
+
+                </div>
+                <div class="content">
+                    <form action="">
+                        <div class="input-box">
+                            <input type="text" placeholder="https://link-for-Share-description.com/">
+                            <button class="popup-btn">Copy</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
