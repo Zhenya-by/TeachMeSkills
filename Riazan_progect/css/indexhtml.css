@@ -115,6 +115,26 @@
 /* ------------------------------------------------------------------/About----------------------------------------------------------- */
 
 
+
+/* -------------------------------------------------------------------handling----------------------------------------------------------- */
+#category{
+    max-width: 232px;
+}
+.select-form input{
+    max-width: 187px;
+}
+.content-right, .content-left{
+    max-width: 1050px;
+}
+.pages-content{
+    max-width: 384px;
+}
+
+/* ------------------------------------------------------------------/handling----------------------------------------------------------- */
+
+
+
+
       /* .top-nav {
         display: flex;
         flex-direction: row;
@@ -269,6 +289,45 @@
         margin-top: 0px;
     }
 /* ------------------------------------------------------------------/About----------------------------------------------------------- */
+
+/* ------------------------------------------------------------------/handling----------------------------------------------------------- */
+.footer-row, .footer-row-inner, .footer-row-img{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.footer-row-img{
+    font-size: 0;
+    padding-top: 10px;
+    gap: 4px;
+}
+.wrapper-footer-inner, .link-box, .col{
+    justify-content: center;
+    text-align: center;
+    
+}.pages-btn, .pages-btn-grey, .pages-btn-active{
+    height: 40px;
+}
+.pages-content{
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.pages{
+    padding: 36px 0 44px 0;
+}.pages-box .pages-btn-grey, .pages-btn-active {
+    padding: 0px 8px;
+}
+.pages-btn img{
+    padding: 5px;
+}
+.content-img-box{
+    margin-right: 0px;
+}
+.content-img-box img{
+    max-width: 106px;
+    width: 100%;
+}
+/* ------------------------------------------------------------------/handling----------------------------------------------------------- */
 }
 @media only screen and (max-width: 375px){
     .box-row-title{
@@ -292,6 +351,23 @@
         text-align: center;
         
     }
+    /* ------------------------------------------------------------------/handling----------------------------------------------------------- */
+    .pages{
+        padding: 36px 0 44px 0;
+    }.pages-box .pages-btn-grey, .pages-btn-active {
+        padding: 0px 6px;
+    }
+    .pages-btn img{
+        padding: 3px;
+    }
+    .pages-btn, .pages-btn-grey, .pages-btn-active{
+    height: 36px;
+    }
+    .content-img-box img{
+        max-width: 93px;
+        width: 100%;
+    }
+    /* ------------------------------------------------------------------/handling----------------------------------------------------------- */
 }
 
 
