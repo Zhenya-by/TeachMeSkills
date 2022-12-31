@@ -1,4 +1,9 @@
 @media only screen and (max-width: 768px){
+    .flex-item1, .flex-item3{
+        width: 100%;
+        max-width: 356.5px;
+        flex-wrap: wrap;
+    }
     body{
         min-width: 320px;
         margin: 0 20px;
@@ -43,8 +48,8 @@
     }
     #checkbox_toggle:checked ~ .menu{
         display: block;
-        max-height: 130%;
-        height: 105px;
+        max-height: 150%;
+        height: 145px;
         transition: all 1.2s;
         
     }
@@ -86,10 +91,6 @@
     .item-background-img{
         background-image: none;
     } 
-    .flex-item1{
-        flex-wrap: wrap;
-        max-width: 340px;
-    }
     .footer-logo-footer-text{
         display: none;
     }
