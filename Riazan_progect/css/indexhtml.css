@@ -12,6 +12,10 @@
     .content-main{
         flex-wrap: nowrap;
     }
+    .counter{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .content-img-box img{
         max-width: 98px;
         width: 100%;
