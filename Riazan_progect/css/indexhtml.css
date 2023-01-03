@@ -542,6 +542,12 @@
     .img-box img{
         max-width: 129px;
     }
+    .gradient{
+        max-width: 93px;
+    }
+    .gradient:after{
+        max-width: 93px;
+    }
 }
 
 
@@ -559,6 +565,9 @@
 
         width: 92px;
         height: 139px;
+    }
+    .gradient{
+        max-width: 92px;
     }
 
 }
@@ -588,5 +597,14 @@
         content: "";
         width: 120px;
         height: 111px;
+    }
+    .box-row-btn{
+        margin: 0 auto;
+    }
+    .gradient{
+        max-width: 75px;
+    }
+    .gradient:after{
+        max-width: 75px;
     }
 }
