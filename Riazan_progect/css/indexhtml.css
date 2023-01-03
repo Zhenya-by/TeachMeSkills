@@ -31,7 +31,7 @@
     .flex-item3 {
         max-width: 484px;
 
-
+    }
 }
 @media only screen and (max-width: 768px){
     .flex-item1, .flex-item3{
