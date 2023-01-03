@@ -387,7 +387,7 @@
     width: 100%;
 }
 .gradient{
-    max-width: 105px;
+    max-width: 106px;
     width: 100%;
 }
 /* ------------------------------------------------------------------/handling----------------------------------------------------------- */
@@ -427,6 +427,10 @@
         max-width: 148px;
     }
     .content-img-box img {
+        max-width: 105px;
+        width: 100%;
+    }
+    .gradient {
         max-width: 105px;
         width: 100%;
     }
