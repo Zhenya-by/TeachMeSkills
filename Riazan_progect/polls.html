@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="polls.css">
+    <link rel="stylesheet" href="css/indexhtml.css">
+    <title>polls</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="wrapper-inner">
+                <a href="index.html"><img src="img/logo-header.png" alt="logo"></a>
+                <div class="vertical-line"></div>
+                <p class="logo-text">Наименование</p>
+            </div>
+            <div class="wrapper-inner">
+                <nav class="nav-header">
+                    <a class="nav-header-text" href="About-project.html">О проекте</a>
+                    <div class="dropdown">
+                        <button class="dropbtn" name="dropbtn">
+                            <a class="nav-header-text-dropdown" href="#">
+                                Помощь
+                                <img class="dropbtn-img" src="img/chevron-right.svg" alt="chevron-right-header">
+                            </a>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="dropdowm-content-inner">
+                                <a href="support.html">Написать в техподдержку</a>
+                                <a href="#">Вопросы и ответы</a>
+                                <a href="#">Пользовательское соглашение</a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <!-- <section class="top-nav">
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                      </label>
+                        <ul class="menu">
+                          <li>One</li>
+                          <li>Two</li>
+                          <li>Three</li>
+                          <li>Four</li>
+                          <li>Five</li>
+                        </ul>
+                      </section> -->
+                </nav>
+                <!-- бургер -->
+                <div class="navbar" id="navbar">
+                    <ul class="nav-links">
+                        <input type="checkbox" id="checkbox_toggle" />
+                        <label for="checkbox_toggle" class="hamburger"><span class="hamburher-line"></span></label>
+                        <div class="menu">
+                            <div class="wrap-menu" id="">
+                                <li><a href="About-project.html">О проекте</a></li>
+                                <li><a href="support.html">Помощь</a></li>
+                                <button>
+                                    <img  class="btn-burger" src="img/button-header-logon.svg" alt="button-header-logon">
+                                    Войти</button>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                  <!-- /burger -->
+                <button class="btn-log-in">
+                    <img class="img-log-in" src="img/button-header-logon.svg" alt="button-header-logon">
+                    Войти
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumb-wrapper">
+        <div class="breadcrumb-wrapper-inner">
+            <ul class="breadcrumb">
+                <li><a href="index.html"><img class="img-breadcrumb" src="img/breadcrumb-home.svg" alt="home"></a></li>
+                <li><a href="handling.html">Обращения</a></li>
+                <li><a href="handling2.html">С контейнерной площадки не вывозится крупногабаритный мусор</a></li>
+            </ul>
+        </div>
+    </section>
+    <main class="main">
+        <div class="main-wrapper">
+            <div class="content-main">
+                <div class="content-left">
+                    <div class="content-wrap">
+                        <h2>Благоустройство Верхнего городского парка</h2>
+                        <p class="content-text">Уважаемые жители города Рязани!
+                            <br>
+                            <br>
+                            Предлагаем Вам принять участие в рейтинговом голосовании по определению видов первоочередных работ по благоустройству в 2021 году парков, включенных в федеральную программу «Формирование комфортной городской среды»
+                            <br>
+                            <br>
+                            Национальный проект «Жильё и городская среда»
+                            <br>
+                            <br>
+                            Примечание:
+                            <br>
+                            - Период проведения электронного голосования: с 5.10 по 09.10.2020 до 18.00.
+                            <br>
+                            - К голосованию приглашаются жители города Рязани, достигшие 14-летнего возраста.
+                            - Количество выбранных вариантов по каждому парку не ограничено.
+                            <br>
+                            - Дополнительные предложения могут быть отражены в ленте комментариев.</p>
+                        <div class="title-horizont-line"></div>
+                        <h3>Опрос</h3>
+                        <div class="footer-titlebox-wrapper">
+                            <form method="get" enctype="multipart/form-data">
+                            <div class="footer-titlebox">
+                                <p class="titlebox-text">Выберите основные возможности карты жителя (не более трех), которые для Вас важны в первую очередь:</p>
+                            </div>
+                            <div class="form-checkbox-wrap">
+                                <div class="form_radio_btn">
+                                    <input id="radio-1" type="checkbox" name="radio" value="1">
+                                    <label for="radio-1">Проездной билет в муниципальном транспорте, в т.ч. для льготных категорий граждан</label>
+                                </div>
+                                <div class="form_radio_btn">
+                                    <input id="radio-2" type="checkbox" name="radio" value="2" checked>
+                                    <label for="radio-2">Использование карты для получения мер социальной поддержки и выплат</label>
+                                </div>
+                                <div class="form_radio_btn">
+                                    <input id="radio-3" type="checkbox" name="radio" value="3" checked>
+                                    <label for="radio-3">Скидки и бонусы от партнеров (торговые сети, гостиницы, спортивные объекты, музеи, заправочные станции и т.д.)</label>
+                                </div>
+                                <div class="form_radio_btn">
+                                    <input id="radio-4" type="checkbox" name="radio" value="4">
+                                    <label for="radio-4">Электронный читательский билет</label>
+                                </div>
+                                <div class="form_radio_btn">
+                                    <input id="radio-5" type="checkbox" name="radio" value="5">
+                                    <label for="radio-5">Использование в системах контроля доступа (проход в учреждение)</label>
+                                </div>
+                                <div class="form_radio_btn">
+                                    <input id="radio-6" type="checkbox" name="radio" value="6">
+                                    <label for="radio-6">Идентификация в учреждениях здравоохранения (электронный полис)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-spacebetwin">
+                            <p>Вопрос 1 из 10</p>
+                            <button class="btn-button-spacebetwin">Далее</button>
+                        </div>
+                        <div class="title-horizont-line"></div>
+                        <h3>Комментарии</h3>
+                        <div class="comment">
+                                <div class="comment-wrap">
+                                    <textarea name="message" id="message" placeholder="Напишите свой комментарий"></textarea>
+                                </div>
+                                <div class="title-horizont-linecomment"></div>
+                                <div class="button-spacebetwin2">
+                                    <img src="img/smile 1.svg" alt="smile">
+                                    <button class="btn-comment-wrap" type="submit">Далее</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="wrap-box-title">
+                            <div class="box-title">
+                                <p class="title-comment">Михеев Павел <span>20.08.2022, 122:224</span></p>
+                                <p>Во дворе дома по адресу ул. Ленинского комсомола д.34 к.1 установлены мусорные контейнеры, которые регулярно вывозятся. Но также рядом с контейнерами выкидывается крупногабаритный мусор, который не вывозится службами уже 3 недели по состоянию на 20 августа 2022 года.</p>
+                            </div>
+                            <div class="box-title">
+                                <p class="title-comment">Михеев Павел <span>20.08.2022, 122:224</span></p>
+                                <p>Во дворе дома по адресу ул. Ленинского комсомола д.34 к.1 установлены мусорные контейнеры, которые регулярно вывозятся. Но также рядом с контейнерами выкидывается крупногабаритный мусор, который не вывозится службами уже 3 недели по состоянию на 20 августа 2022 года.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="content-right-wrapper">
+                    <div class="content-wrap4">
+                        <div class="content-right-title">
+                            <h1>5 626</h1>
+                            <div class="view">
+                                <img src="img/eye 1.svg" alt="view">
+                                <p>257</p>
+                            </div>
+                        </div>
+                        <p class="title-text">Поучаствовало в<br> голосовании</p>
+                    </div>
+                    <div class="horizont-line"></div>
+                    <div class="content-wrap2">
+                        <div class="category-text">
+                            <h4>Открытие опроса</h4>
+                            <p class="grey-text">21.05.2021</p>
+                        </div>
+                        <div class="category-text">
+                            <h4>Дата завешения</h4>
+                            <p class="grey-text">24.05.2021</p>
+                        </div>
+                        <div class="category-text">
+                            <h4>До опроса осталось</h4>
+                            <p class="grey-text">5 дней</p>
+                        </div>
+                    </div>
+                    <div class="horizont-line"></div>
+                    <div class="content-wrap3">
+                        <div class="category-text-footer">
+                            <h4>Результаты опроса</h4>
+                            <p class="grey-text">Отчёт профильного блока зампреда правительства Дмитрия Филиппова</p>
+                        </div>
+                        <div class="golos-wrap">
+                            <div class="golos-inner">
+                                <p class="text-golos">Голосов:1</p>
+                                <p class="text-golos">3%</p>
+                            </div>
+                            <div class="line">
+                                <hr class="yelow">
+                            </div>
+                        </div>
+                        <div class="category-text-footer">
+                            <div class="horizont-line"></div>
+                            <p class="grey-text">Отчёт профильного блока зампреда правительства Евгения Беленецкого</p>
+                        </div>
+                        <div class="golos-wrap">
+                            <div class="golos-inner">
+                                <p class="text-golos">Голосов:6</p>
+                                <p class="text-golos">19%</p>
+                            </div>
+                            <div class="line">
+                                <hr class="yelow2">
+                            </div>
+                        </div>
+                        <div class="category-text-footer">
+                            <div class="horizont-line"></div>
+                            <p class="grey-text">Отчёт профильного блока зампреда правительства Светланы Горячкиной</p>
+                        </div>
+                        <div class="golos-wrap">
+                            <div class="golos-inner">
+                                <p class="text-golos">Голосов:22</p>
+                                <p class="text-golos">69%</p>
+                            </div>
+                            <div class="line">
+                                <hr class="yelow3">
+                            </div>
+                        </div>
+                        <div class="category-text-footer">
+                            <div class="horizont-line"></div>
+                            <p class="grey-text">Отчёт профильного блока первого зампреда правительства Анны Росляковой</p>
+                        </div>
+                        <div class="golos-wrap">
+                            <div class="golos-inner">
+                                <p class="text-golos">Голосов:0</p>
+                                <p class="text-golos">0%</p>
+                            </div>
+                            <div class="line">
+                                <hr class="yelow4">
+                            </div>
+                        </div>
+                        <div class="category-text-footer">
+                            <div class="horizont-line"></div>
+                            <p class="grey-text">Отчёт профильного блока зампреда правительства Дмитрия Филиппова</p>
+                        </div>
+                        <div class="golos-wrap">
+                            <div class="golos-inner">
+                                <p class="text-golos">Голосов:1</p>
+                                <p class="text-golos">3%</p>
+                            </div>
+                            <div class="line">
+                                <hr class="yelow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="wrapper-footer">
+            <div class="wrapper-footer-inner">
+                <div class="footer-logo-footer-text">
+                    <img class="footer-logo-img" src="img/logo-footer.svg" alt="logo-footer">
+                    <p class="info-text">Информационная экосистема Рязанской области — Наш Дом Рязань</p>
+                </div>
+    
+                <div class="col">
+                    <div class="col-footer">
+                        <p>Разделы сайта</p>
+                        <div class="link-box">
+                            <ul class="footer-link">
+                                <a href="#"><li>Управляющие организации дома</li></a>
+                                <a href="#"><li>Рейтинги и Исполнители</li></a>
+                                <a href="handling.html"><li>Жалобы и обращения</li></a>
+                                <a href="#"><li>Общественные обсуждения</li></a>
+                                <a href="#"><li>Опросы</li></a>
+                            </ul>
+                                <div class="link-box">
+                                    <ul class="footer-link">
+                                        <a href="#"><li>Реестр организаций-партнеров</li></a>
+                                        <a href="#"><li>Информация об УПЧ</li></a>
+                                        <a href="#"><li>Запись к УПЧ</li></a>
+                                        <a href="#"><li>Написать уполномоченному</li></a>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-footer">
+                        <p>Помощь</p>
+                        <div class="link-box">
+                            <ul class="footer-link">
+                                <a href="#"><li>Написать в техподдержку</li></a>
+                                <a href="#"><li>Вопросы и ответы</li></a>
+                                <a href="#"><li>Пользовательское соглашение</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gorizont-line"></div>
+            <div class="footer-row">
+                <div class="footer-row-inner">
+                    <a href="">
+                        <p>Copyright © 2022 Nash Dom Inc.</p>
+                        <p>All rights reserved.</p>
+                    </a>
+                </div>
+                <div class="footer-row-img">
+                    <div class="appstore">
+                        <img src="img/appstore.svg" alt="appstore">
+                    </div>
+                    <div class="googleplay">
+                        <img src="img/googleplay.svg" alt="googleplay">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

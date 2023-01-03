@@ -1,12 +1,14 @@
+@media only screen and (max-width: 1024px){
+    header, main, .counter, .breadcrumb-wrapper, .filter, footer{
+        min-width: 320px;
+        padding: 0 20px;
+    }
+}
 @media only screen and (max-width: 768px){
     .flex-item1, .flex-item3{
         width: 100%;
         max-width: 356.5px;
         flex-wrap: wrap;
-    }
-    body{
-        min-width: 320px;
-        margin: 0 20px;
     }
     a{
         text-decoration: none;
@@ -128,6 +130,10 @@
 }
 .pages-content{
     max-width: 384px;
+}
+.breadcrumb{
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /* ------------------------------------------------------------------handling2----------------------------------------------------------- */
@@ -277,6 +283,34 @@
         }
       } */
 }
+
+@media only screen and (max-width: 425px){
+    .main-wrapper{
+        margin-bottom: 44px;
+    }
+    .content-img-box img {
+        max-width: 109px;
+        width: 100%;
+    }
+    .content-img-box {
+        padding-top: 24px;
+        margin-right: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    .footer-row-img{
+        justify-content: end;
+    }
+    .counter-col-wrap{
+        flex-direction: column;
+    }
+    .flex-item1, .flex-item3 {
+        width: 100%;
+        max-width: 386.5px;
+        flex-wrap: wrap;
+    }
+}
 @media only screen and (max-width: 414px){
     .flex-item1, .flex-item3{
         width: 100%;
@@ -356,10 +390,7 @@
     .content-img-box{
         margin-right: 0px;
     }
-    .content-img-box img{
-        max-width: 122px;
-        width: 100%;
-    }
+
     .active{
         max-width: 122px;
         width: 100%;
@@ -368,12 +399,12 @@
     .gradient:after{
         height: 100%;
     }
-    .breadcrumb li{
-        white-space: nowrap;
-        overflow: hidden;
-    }
+
     .popup-img{
         gap: 4px;
+    }
+    .img-breadcrumb{
+        padding-right: 5px;
     }
     /* ------------------------------------------------------------------/handling2----------------------------------------------------------- */
 }
@@ -420,9 +451,7 @@
 
 
     /* ------------------------------------------------------------------handling2------------------------------------------------------------ */
-    .content-img-box img{
-        max-width: 109px;
-    }
+
     .img-breadcrumb{
         margin-right: 8px;
     }
