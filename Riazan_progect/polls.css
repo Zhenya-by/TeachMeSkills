@@ -647,7 +647,7 @@ h3 {
 textarea{
     max-width: 658px;
     width: 100%;
-    margin: 14px 16px;
+    margin: 14px 0px;
     min-height: 72px;
     resize: none;
     border: none;
