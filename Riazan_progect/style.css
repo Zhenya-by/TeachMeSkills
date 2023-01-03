@@ -414,12 +414,11 @@ main{
     padding: 12px 24px
     
 }
-.link-link{
+.link-link a{
     height: 40px;
     display: flex;
 }
 .box-row-btn3 {
-    height: 40px;
     background: #FFCC33;
     border-radius: 8px;
     padding: 12px 24px;
