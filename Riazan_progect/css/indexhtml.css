@@ -293,6 +293,11 @@
     .img-box img {
         max-width: 154px;
     }
+    .title-btn-content-r {
+        display: flex;
+        justify-content: space-around;
+        gap: 8px;
+    }
 }
 @media only screen and (max-width: 414px){
     .flex-item1, .flex-item3{
@@ -446,10 +451,6 @@
     .box-row-inner {
         padding: 32px 24px 24px 24px;
     }
-    .title-btn-content-r {
-        justify-content: space-around;
-    }
-
 }
 
 @media only screen and (max-width: 375px){
