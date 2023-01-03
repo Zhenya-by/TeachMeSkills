@@ -702,10 +702,10 @@ main {
 
 .gradient:after {
     content: "";
-    width: 100%;
+    width: 100.60%;
     height: 100%;
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
     background: linear-gradient(270deg, #FFFFFF 34.39%, rgba(255, 255, 255, 0.7) 100%);
 
