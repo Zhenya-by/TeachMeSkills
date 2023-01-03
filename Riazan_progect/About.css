@@ -363,6 +363,11 @@ ul.breadcrumb li+li:before {
     width: 100%;
     max-width: 1082px;
 }
+.slide-img img{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
 /* /slide */
                     /* counter */
 .counter{

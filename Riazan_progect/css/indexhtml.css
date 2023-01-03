@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1024px){
-    header, main, .counter, .breadcrumb-wrapper, .filter, footer{
+    header, main, .breadcrumb-wrapper, .filter, footer{
         min-width: 320px;
         padding: 0 20px;
     }
