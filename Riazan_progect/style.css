@@ -86,6 +86,12 @@ header{
     line-height: 19px;
     color: #1B1400;
 }
+.nav-header-text:hover, .nav-header-text-dropdown:hover{
+    text-shadow: -1px 0px 16px rgba(0,0,0,0.49);
+}
+.footer-link li:hover{
+    text-shadow: -1px 0px 16px rgba(0,0,0,1);
+}
 
 .nav-header, .dropdown{
     display: flex;
@@ -156,6 +162,9 @@ header{
     line-height: 19px;
     letter-spacing: 0.02em;
     color: #1B1400;
+}
+.btn-log-in:hover{
+    box-shadow: 0px 0px 30px -4px rgba(197, 197, 197, 1);
 }
                     /* /header */
                     /* burger */
@@ -417,6 +426,9 @@ main{
 .link-link {
     height: 40px;
     display: flex;
+}
+.link-link a:hover{
+    box-shadow: 0px 0px 30px -4px rgba(197, 197, 197, 1);
 }
 .box-row-btn3 {
     background: #FFCC33;

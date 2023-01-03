@@ -35,6 +35,15 @@ body {
     background-color: #F6F6F6;
 
 }
+.nav-header-text:hover, .nav-header-text-dropdown:hover{
+    text-shadow: -1px 0px 16px rgba(0,0,0,0.49);
+}
+.footer-link li:hover{
+    text-shadow: -1px 0px 16px rgba(0,0,0,1);
+}
+.btn-log-in:hover{
+    box-shadow: 0px 0px 30px -4px rgba(197, 197, 197, 1);
+}
 
 /* header */
 header {
