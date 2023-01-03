@@ -427,6 +427,7 @@
         max-width: 148px;
     }
 }
+
 @media only screen and (max-width: 375px){
     .box-row-title{
         font-size: 27px;
@@ -498,6 +499,23 @@
     /* ------------------------------------------------------------------/support----------------------------------------------------------- */
 }
 
+@media only screen and (max-width: 360px){
+    .content-img-box img {
+        max-width: 92px;
+    }
+    .content-img-box1 img {
+        max-width: 104px;
+    }
+    .img-box img {
+        max-width: 122px;
+    }
+    .gradient:after {
+
+        width: 92px;
+        height: 139px;
+    }
+
+}
 
 @media only screen and (max-width: 320px){
     .content-img-box img {
