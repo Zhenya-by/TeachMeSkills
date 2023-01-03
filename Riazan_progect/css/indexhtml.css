@@ -414,10 +414,10 @@
 }
 @media only screen and (max-width: 412px){
     .content-img-box img {
-        max-width: 105px;
+        max-width: 104px;
     }
     .content-img-box1 img {
-        max-width: 121px;
+        max-width: 120px;
         width: 100%;
     }
     .gradient1:after{
