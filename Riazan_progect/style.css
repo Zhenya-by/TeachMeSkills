@@ -414,6 +414,10 @@ main{
     padding: 12px 24px
     
 }
+.link-link{
+    height: 40px;
+    display: flex;
+}
 .box-row-btn3 {
     height: 40px;
     background: #FFCC33;
@@ -421,10 +425,6 @@ main{
     padding: 12px 24px;
     border: none;
 
-    
-}
-.box-row-btn3 span{
-    
     font-family: 'ALS Hauss', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -433,6 +433,12 @@ main{
     letter-spacing: 0.02em;
 
     color: #1B1400;
+
+    
+}
+.box-row-btn3 span{
+    
+
 }
 .box-row-btn3:link{
     color: #1B1400;
