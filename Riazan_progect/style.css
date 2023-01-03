@@ -414,7 +414,7 @@ main{
     padding: 12px 24px
     
 }
-.link-link a{
+.link-link {
     height: 40px;
     display: flex;
 }
@@ -423,7 +423,6 @@ main{
     border-radius: 8px;
     padding: 12px 24px;
     border: none;
-
     font-family: 'ALS Hauss', sans-serif;
     font-style: normal;
     font-weight: 400;
