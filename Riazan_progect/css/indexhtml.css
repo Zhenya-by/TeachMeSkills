@@ -1,3 +1,20 @@
+@media only screen and (max-width: 1049px){
+    header, main, .breadcrumb-wrapper, .filter, footer{
+        min-width: 320px;
+        padding: 0 20px;
+    }
+    .counter{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .flex-item1, .flex-item3{
+        max-width: 1009px;
+    }
+    /* .flex-item3 {
+        max-width: 497px;
+    } */
+
+}
 @media only screen and (max-width: 1024px){
     header, main, .breadcrumb-wrapper, .filter, footer{
         min-width: 320px;
@@ -29,22 +46,25 @@
         width: 86px;
         height: 130px;
     }
-    .flex-item1 {
+    /* .flex-item1 {
         max-width: 984px;
     }
     .flex-item3 {
         max-width: 484px;
 
-    }
+    } */
 }
 @media only screen and (max-width: 768px){
     .flex-item1, .flex-item3{
         width: 100%;
-        max-width: 356.5px;
+        max-width: 356px;
         flex-wrap: wrap;
     }
     .content-main{
         flex-wrap: wrap;
+    }
+    .box-row-inner{
+        max-width: 728px;
     }
     a{
         text-decoration: none;
@@ -141,7 +161,6 @@
     .counter-human-dog{
         display: none;
     }
-/* -------------------------------------------------------------------About----------------------------------------------------------- */
     .counter-human img{
         display: none;
     }
@@ -174,12 +193,6 @@
         height: 138px;
         max-width: 113px;
     }
-
-/* ------------------------------------------------------------------/About----------------------------------------------------------- */
-
-
-
-/* -------------------------------------------------------------------handling----------------------------------------------------------- */
 #category{
     max-width: 232px;
 }
@@ -196,17 +209,12 @@
     white-space: nowrap;
     overflow: hidden;
 }
-
-/* ------------------------------------------------------------------handling2----------------------------------------------------------- */
 .content-right, .content-left{
     margin-top: 24px;
 }
 .main-wrapper{
     flex-wrap: wrap;
 }
-/* ------------------------------------------------------------------/handling2----------------------------------------------------------- */
-
-/* -------------------------------------------------------------------support----------------------------------------------------------- */
 .file-img{
 
     width: 100%;
@@ -217,7 +225,6 @@
     max-width: 102px;
     /* width: 100%; */
 }
-/* ------------------------------------------------------------------/support----------------------------------------------------------- */
 
       .content-wrap{
         padding: 24px 24px 24px 24px;
@@ -243,6 +250,23 @@
         max-width: 728px;
     }
 }
+
+@media only screen and (max-width: 766px){
+    .flex-item1, .flex-item3{
+        max-width: 726px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .flex-item3{
+
+    }
+    .flex-body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 
 @media only screen and (max-width: 425px){
     .main-wrapper{
