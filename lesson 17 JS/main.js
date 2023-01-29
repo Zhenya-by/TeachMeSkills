@@ -38,8 +38,7 @@
 //     return item.name === 'Alex';
 // })
 // Находит первый элемент который соответствует условию: В нашем случаи это - {name: 'Alex', bill: 3000},
-// let result2 = people2.find(function (item, index, array) {
-//     return item.bill >= 1000; 
+// let result2 = people2  
 // })
 // console.log(result ,result2);
 
