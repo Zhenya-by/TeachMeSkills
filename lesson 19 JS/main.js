@@ -20,7 +20,7 @@
 // > [0, 0, 0, 0] -> '0101010'
 
 // const binary = [0, 0, 0, 0]
-// // binary.map((index) => `${index}${1}`)//
+// binary.map((index) => `${index}${1}`)//
 // console.log(binary.join('1'));
 
 
